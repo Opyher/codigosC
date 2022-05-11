@@ -7,11 +7,11 @@ main(){
 	int num, qntDiv = 0, cont = 0;
 	int div[qntDiv];
 	int dec[qntDiv];
-	num = 1030;
+	printf("Digite um numero: ");
+	scanf("%d", &num);
 	//DIVIDI O NUMERO ATÉ ELE SER 0
 	//E COLOCA O RESULTADO DE CADA DIVISÃO EM UM VETOR
 	while(num != 0){
-		printf("%d ", num);
 		div[cont] = num;
 		num = num / 2;
 		qntDiv++;
@@ -27,6 +27,7 @@ main(){
 		}
 	}
 	//INVERTE A ORDEM DO VETOR
+	printf("Em decimal é: ");
 	for(int i = 0; i < qntDiv; i++){
 		printf("%u", dec[qntDiv - i -1]);
 	}
