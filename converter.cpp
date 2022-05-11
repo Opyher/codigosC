@@ -4,7 +4,7 @@
 
 main(){
 	setlocale(LC_ALL, "Portuguese");
-	float num, qntDiv = 0, cont = 0;
+	int num, qntDiv = 0, cont = 0;
 	int div[qntDiv];
 	int dec[qntDiv];
 	num = 1030;
